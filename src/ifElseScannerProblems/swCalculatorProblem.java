@@ -14,8 +14,11 @@ public class swCalculatorProblem {
 
         int emel = sc.nextInt();
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 0dd39324bd5317ab2e03cf4707bd83eb710d25b8
         System.out.println("Birinci reqem");
         int num1 = sc.nextInt();
         System.out.println("Ikinci reqem");
@@ -43,9 +46,12 @@ public class swCalculatorProblem {
                 break;
             case 4:
                 System.out.println("Hasil: "+num1*num2);
+<<<<<<< HEAD
                 break;
             default:
                 System.out.println("Emel secimi sehvdir");
+=======
+>>>>>>> 0dd39324bd5317ab2e03cf4707bd83eb710d25b8
         }
 
 
