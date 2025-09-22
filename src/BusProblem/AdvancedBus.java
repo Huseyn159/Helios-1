@@ -68,9 +68,10 @@ public class AdvancedBus {
                                     System.out.println("Balance -" + fare + "AZN Getting on bus...");
                                     userBalance -= fare;
                                     System.out.println("Remaining Balance: " + userBalance + "AZN.");
+                                    break;
                                 } else {
                                     while (userBalance < fare) {
-                                        System.out.println("Not enough balance");
+                                        System.out.println("Not enough balance: " + userBalance);
                                         System.out.println("Please top up your balance");
                                         System.out.println("Enter amount for top up: ");
                                         double topup2 = sc.nextDouble();
@@ -79,6 +80,7 @@ public class AdvancedBus {
                                         if (userBalance >= fare) {
                                             System.out.println("Balance -" + fare + "AZN Getting on bus...");
                                             userBalance -= fare;
+                                            break;
 
                                         }
                                     }
