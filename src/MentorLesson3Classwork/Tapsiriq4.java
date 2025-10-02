@@ -1,4 +1,4 @@
-package ThirdmentorClasswork;
+package MentorLesson3Classwork;
 
 import java.util.Random;
 

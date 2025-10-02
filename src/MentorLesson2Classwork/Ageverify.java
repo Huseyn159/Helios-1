@@ -1,4 +1,4 @@
-package SecondmentorClasswork;
+package MentorLesson2Classwork;
 
 import java.util.Scanner;
 

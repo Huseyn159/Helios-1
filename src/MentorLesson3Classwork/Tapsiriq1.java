@@ -1,4 +1,4 @@
-package ThirdmentorClasswork;
+package MentorLesson3Classwork;
 
 public class Tapsiriq1 {
 
